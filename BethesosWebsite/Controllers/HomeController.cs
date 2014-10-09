@@ -13,16 +13,16 @@ namespace BethesosWebsite.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Service()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Our Services.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contact us for more information.";
 
             return View();
         }
