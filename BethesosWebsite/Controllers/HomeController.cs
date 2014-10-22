@@ -26,5 +26,12 @@ namespace BethesosWebsite.Controllers
 
             return View();
         }
+
+        public ActionResult ContactFeedback()
+        {
+            ViewBag.Message = "Contact us for more information.";
+
+            return View();
+        }
     }
 }
